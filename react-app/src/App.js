@@ -1,11 +1,11 @@
 import React from 'react';
-import GrayscaleImageDropper from './GrayscaleImageDropper';
+import GrayscaleImageDropper from './bitdropper';
 
 function App() {
   return (
     <div className="App">
       <h1>拖拽图片转黑白效果</h1>
-      <GrayscaleImageDropper />
+      <bitdropper />
     </div>
   );
 }
