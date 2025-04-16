@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import p5 from "p5";
 
-export default function OrderedDitherSketch() {
+export default function BitDropper() {
   const sketchRef = useRef();
 
   useEffect(() => {
