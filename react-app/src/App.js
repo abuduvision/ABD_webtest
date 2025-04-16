@@ -1,11 +1,10 @@
-import React from 'react';
-import GrayscaleImageDropper from './bitdropper';
+import React from "react";
+import bitdropper from "./bitdropper"; // ← 你写的 p5.js 组件
 
 function App() {
   return (
     <div className="App">
-      <h1>拖拽图片转黑白效果</h1>
-      <bitdropper />
+      <bitdropper /> {/* 显示 p5.js 效果 */}
     </div>
   );
 }
